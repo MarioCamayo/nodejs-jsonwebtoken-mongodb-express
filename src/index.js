@@ -1,5 +1,6 @@
 import app from './app.js'
 import './database.js'
+import dotenv from 'dotenv/config';
 
 const init = async () => {
   try {

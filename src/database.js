@@ -1,9 +1,6 @@
 import mongoose from 'mongoose';
 
-mongoose.connect('mongodb://localhost/simplejwt', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
+mongoose.connect('mongodb://localhost/simplejwt')
 .then(() => {
   console.log('Connected to MongoDB');
 })
